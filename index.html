@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="validaciones.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" 
     content="width=device-width, initial-scale=1.0">
@@ -13,23 +15,26 @@
 
     
     <header class="header">
+        <div id="fecha-info"></div>
         <a href="home" class="logo">Diego<span>Pérez</span></a>
 
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
             <a href="#home" class="avtive">Home</a>
-            <a href="#education">Education</a>
-            <a href="#services">Services</a>
-            <a href="#testimonials">Testimonials</a>
-            <a href="#contact">Contact</a>
+            <a href="#education">Educacion</a>
+            <a href="#services">Servicios</a>
+            <a href="#testimonials">Testimonios</a>
+            <a href="#contact">Contacto</a>
+            <a href="formulario.html" target="_blank" rel="noopener noreferrer">Formulario</a>
+
         </nav>
     </header>
 
     <section class="home" id="home">
         <div class="home-content">
-            <h1>Hi,I'm<span> Diego</span></h1>
-            <h3 class="text-animation">and I'm <span></span></h3>
+            <h1>Hola,soy <span>Diego </span></h1>
+            <h3 class="text-animation">y soy <span> </span></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nobis, quo odit laudantium libero perferendis cupiditate dolor similique reiciendis enim iste magni, sunt architecto animi repellendus, officiis aperiam sit minima.</p>
 
             <div class="social-icons">
@@ -61,7 +66,7 @@
                 <div class="timeline-dot"></div> 
                     <div class="timeline-date">2021</div>
                     <div class="timeline-content">
-                        <h3>High School</h3>
+                        <h3>Esucela</h3>
                         <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit doloribus labore eaque ratione, laudantium commodi aliquam, repellendus atque officia quae quo, itaque in? Minima, non rerum. Enim quod amet minima.</P>
                     </div>
             </div>
@@ -71,7 +76,7 @@
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">2022</div>
                     <div class="timeline-content">
-                        <h3>University</h3>
+                        <h3>Universidad</h3>
                         <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit doloribus labore eaque ratione, laudantium commodi aliquam, repellendus atque officia quae quo, itaque in? Minima, non rerum. Enim quod amet minima.</P>
                     </div>
             </div>
@@ -80,7 +85,7 @@
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">2023</div>
                         <div class="timeline-content">
-                            <h3>Internship</h3>
+                            <h3>Bachillerato</h3>
                             <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit doloribus labore eaque ratione, laudantium commodi aliquam, repellendus atque officia quae quo, itaque in? Minima, non rerum. Enim quod amet minima.</P>
                         </div>
             </div>
@@ -89,7 +94,7 @@
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">2024</div>
                     <div class="timeline-content">
-                        <h3>Job 1</h3>
+                        <h3>Trabajo</h3>
                         <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit doloribus labore eaque ratione, laudantium commodi aliquam, repellendus atque officia quae quo, itaque in? Minima, non rerum. Enim quod amet minima.</P>
                     </div>
                 </div>
@@ -97,12 +102,12 @@
     </section>
 
             <section class="services" id="services">
-                <h2 class="heading">Services</h2>
+                <h2 class="heading">Servicios</h2>
 
                 <div class="services-container">
                     <div class="service-box">
                         <div class="service-info">
-                            <h4>UI Design</h4>
+                            <h4>Diseñador UI</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reiciendis minus ullam facere, dolore optio impedit eligendi omnis aliquam facilis! Quo hic velit sunt enim dolores tempore! Eaque, aspernatur praesentium!</p>
                     </div>
                 </div>
@@ -110,21 +115,21 @@
                
                     <div class="service-box">
                         <div class="service-info">
-                            <h4>Frontend Development</h4>
+                            <h4>Diseñador Fronted</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reiciendis minus ullam facere, dolore optio impedit eligendi omnis aliquam facilis! Quo hic velit sunt enim dolores tempore! Eaque, aspernatur praesentium!</p>
                     </div>
                 </div>
 
                  <div class="service-box">
                         <div class="service-info">
-                            <h4>Backend Development</h4>
+                            <h4>Diseñador Bakend</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reiciendis minus ullam facere, dolore optio impedit eligendi omnis aliquam facilis! Quo hic velit sunt enim dolores tempore! Eaque, aspernatur praesentium!</p>
                     </div>
                 </div>
 
                     <div class="service-box">
                         <div class="service-info">
-                            <h4>Testing</h4>
+                            <h4>Pruebas</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reiciendis minus ullam facere, dolore optio impedit eligendi omnis aliquam facilis! Quo hic velit sunt enim dolores tempore! Eaque, aspernatur praesentium!</p>
                     </div>
                 </div>
@@ -132,7 +137,7 @@
 
             <section class="testimonials" id="testimonials">
                <div class="testimonials-box">
-                    <h2 class="heading">Testimonials</h2> 
+                    <h2 class="heading">Testimonios</h2> 
 
                     <div class="wrapper">
                         <div class="testimonial-item">
@@ -179,7 +184,7 @@
             </section> 
 
            <section class="contact" id="contact">
-            <h2 class="heading">Contact <span>Me</span></h2>
+            <h2 class="heading">Contactame</span></h2>
 
             <form action="">
                 <div class="input-group">
@@ -236,6 +241,7 @@
             </p>
             
         </footer>
+        <div id="navegador-info"></div>
         <script src="script.js"></script>
     </body>
     </html>
