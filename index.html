@@ -16,6 +16,7 @@
     
     <header class="header">
         <div id="fecha-info"></div>
+
         <a href="home" class="logo">Diego<span>Pérez</span></a>
 
         <i class='bx bx-menu' id="menu-icon"></i>
@@ -197,7 +198,9 @@
                     <div class="input-box">
                        <input type="number" placeholder="Phone Number">
                        <input type="text" placeholder="Subject"> 
-                    </div>
+                       <input type="text" name="nombre" class="input-box" placeholder="Tu nombre" required />
+                       <input type="email" name="correo" class="input-box" placeholder="Tu correo" required />
+                </div>
                 </div>
 
                 <div class="input-group-2">
@@ -242,6 +245,18 @@
             
         </footer>
         <div id="navegador-info"></div>
-        <script src="script.js"></script>
+        </footer>
+
+
+        
+        <div class="modal" id="confirmModal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeModal">&times;</span>
+    <h2>¿Confirma el envío?</h2>
+    <p id="modalMensaje"></p>
+    <button class="btn" id="modalAceptar">Aceptar</button>
+  </div>
+</div>
+<script src="script.js"></script>
     </body>
     </html>

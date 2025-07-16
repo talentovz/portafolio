@@ -674,3 +674,68 @@ body{
   outline: none;
   box-shadow: 0 0 10px var(--main-color);
 }
+.btn {
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: var(--main-color); /* Azul brillante */
+  color: var(--text-color);      /* Texto blanco */
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 4rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 25px var(--main-color);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px var(--main-color);
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(8, 8, 8, 0.8);
+  backdrop-filter: blur(5px);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: var(--second-bg-color);
+  margin: auto;
+  padding: 2rem;
+  border: 2px solid var(--main-color);
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 500px;
+  color: var(--text-color);
+  box-shadow: 0 0 25px var(--main-color);
+  text-align: center;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.close-btn {
+  color: var(--main-color);
+  float: right;
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.close-btn:hover {
+  transform: scale(1.2);
+  color: white;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
